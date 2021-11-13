@@ -19,12 +19,17 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": ["react", "@typescript-eslint"],
+  "plugins": [
+    "react",
+    "@typescript-eslint"
+  ],
   "overrides": [
     {
-      "files": ["*.tsx", "*.ts"],
-      "rules": {
-      }
+      "files": [
+        "*.tsx",
+        "*.ts"
+      ],
+      "rules": {}
     }
   ],
   "rules": {
@@ -39,13 +44,19 @@
     "react/jsx-filename-extension": [
       1,
       {
-        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx"
+        ]
       }
     ],
     "react/react-in-jsx-scope": "off",
     "semi": [
       "error",
       "always"
-    ]
+    ],
+    "react/jsx-props-no-spreading": "off",
   }
 }
