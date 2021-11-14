@@ -33,6 +33,16 @@
     }
   ],
   "rules": {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx"
+        ]
+      }
+    },
     "max-len": [
       "error",
       {
